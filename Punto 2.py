@@ -95,7 +95,7 @@ def main():
     trie = Trie()  # crear arbol trie
 
     # insertar lista de palabras
-    with open('PROYECTO/input.txt', 'r') as f:  # abre el archivo de texto
+    with open('PROYECTO/Proyecto-ADA/input.txt', 'r') as f:  # abre el archivo de texto
         instructions = []   # lista de instrucciones
         lines = f.read().splitlines()  # lee las lineas del archivo
         for line in lines:
@@ -112,7 +112,7 @@ def main():
             # for i in trie.getWords(word): 
             #     print(i)
             #escribe en el archivo de salida
-            with open('PROYECTO/output.txt', 'a') as f:
+            with open('PROYECTO/Proyecto-ADA/output.txt', 'a') as f:
                 f.write(str(trie.getBiggestWord(word)) + "\n")
             #print(trie.getBiggestWord(word))
 
