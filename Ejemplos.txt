@@ -1,0 +1,42 @@
+**********************************EJEMPLO 1********************************
+9
+1 arroz
+1 casamiento
+1 caza
+1 cazador
+1 cazadora
+2 casa
+2 aro
+2 caperucita
+2 pedro
+**********************************EJEMPLO 2********************************
+20
+1 edeca
+1 bccec
+1 bcbcc
+1 ddabc
+1 abdec
+1 bddad
+1 aaeda
+1 ddeeb
+1 cebda
+1 ecdac
+2 aeecc
+1 cedce
+2 dcebb
+2 cdadd
+1 adadc
+1 eeece
+1 bdaec
+1 bdcft
+2 beabc
+1 bdcft
+**********************************EJEMPLO 3********************************
+7
+1 aaaaaaaaa
+1 aaaaaaabb
+1 aaaaaaaba
+1 aaaaabbbb
+1 aaaaabbbc
+1 aaaaabbbc
+2 aaccbssdb

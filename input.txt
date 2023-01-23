@@ -1,0 +1,8 @@
+7
+1 aaaaaaaaa
+1 aaaaaaabb
+1 aaaaaaaba
+1 aaaaabbbb
+1 aaaaabbbc
+1 aaaaabbbc
+2 aaccbssdb
