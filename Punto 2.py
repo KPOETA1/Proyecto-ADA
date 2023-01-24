@@ -136,6 +136,5 @@ if __name__ == "__main__":
     main()
 
 fin = timer()
-print(fin - inicio)
-
-
+tiempo_ejecucion = (fin - inicio)
+print(tiempo_ejecucion)
