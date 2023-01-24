@@ -84,9 +84,6 @@ class Trie:
         else:
             return prefix
 
-
-
-
     # funcion para obtener la palabra mas grande
     def getBiggestWord(self, word):
         current = self.root
@@ -115,6 +112,7 @@ def main():
     # insertar lista de palabras
     with open('PROYECTO/Proyecto-ADA/input.txt', 'r') as f:  # abre el archivo de texto
         instructions = []   # lista de instrucciones
+
         lines = f.read().splitlines()  # lee las lineas del archivo
         for line in lines:
             # se agrega la instruccion a la lista
@@ -138,3 +136,4 @@ if __name__ == "__main__":
 fin = timer()
 tiempo_ejecucion = (fin - inicio)
 print(tiempo_ejecucion)
+
