@@ -1,8 +1,12 @@
 import sys
+from timeit import default_timer as timer
 
 # Clase Arbol Trie
 # en caso de empate se retorna la palabra mayor palabra lexicograficamente
 
+
+
+inicio = timer()
 
 # funcion para obtener el valor maximo de un diccionario
 def getMaxValue(d):
@@ -130,3 +134,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+fin = timer()
+print(fin - inicio)
+
+
