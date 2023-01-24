@@ -3,6 +3,7 @@ import sys
 # Clase Arbol Trie
 # en caso de empate se retorna la palabra mayor palabra lexicograficamente
 
+
 # funcion para obtener el valor maximo de un diccionario
 def getMaxValue(d):
     for key in d:
@@ -83,27 +84,12 @@ class Trie:
 
 
     # funcion para obtener la palabra mas grande
-
     def getBiggestWord(self, word):
         current = self.root
         prefix = self.getPrefix(word)
 
         prefix = self.recorrerArbol(prefix)
         
-
-        # for c in prefix:
-        #     current = current.children[c]
-
-        # if current.number_of_words > 1:
-        #     count = 1
-        #     letter = ""
-        #     for c in current.children:
-        #         if current.children[c].number_of_words > count:
-        #             count = current.children[c].number_of_words
-        #             letter = c
-        #     prefix += letter
-
-        # print (prefix)
         words = self.getWords(prefix)
         shortest = self.getShortestWord(words)
         # return self.getShortestWord(words)
@@ -137,12 +123,9 @@ def main():
         if query_type == 1:  # si es de tipo 1
             trie.insert(word)  # se inserta la palabra
         elif query_type == 2:  # si es de tipo 2
-            # for i in trie.getWords(word):
-            #     print(i)
             # escribe en el archivo de salida
-            # with open('PROYECTO/Proyecto-ADA/output.txt', 'a') as f:
-            #   f.write(str(trie.getBiggestWord(word)) + "\n")
-            print(trie.getBiggestWord(trie.getPrefix(word)))
+            with open('PROYECTO/Proyecto-ADA/output.txt', 'a') as f:
+              f.write(str(trie.getBiggestWord(word)) + "\n")
 
 
 if __name__ == "__main__":
